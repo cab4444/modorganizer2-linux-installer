@@ -14,7 +14,7 @@ extracted_jdk="${downloaded_jdk%.*}"
 downloaded_winetricks="$downloads_cache/winetricks"
 executable_winetricks="$shared/winetricks"
 
-downloaded_mo2="$downloads_cache/latest-mo2-archive.7z"
+downloaded_mo2="$downloads_cache/mo2-beta4-archive.7z"
 extracted_mo2="${downloaded_mo2%.*}"
 
 if [ -n "$game_scriptextender_url" ]; then
