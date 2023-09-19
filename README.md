@@ -31,8 +31,10 @@ All requirements should be readily available in your distribution's package mana
 3. Extract the downloaded file;
 4. Open the extracted folder in a terminal and execute `./install.sh`;
 5. The installer will start and guide you through the rest of the process;
-6. Run the game on Steam and Mod Organizer 2 should start;
-7. Read the [post-install instructions](post-install.md) for recommended additional steps;
+7. Run the game on Steam and Mod Organizer 2 should start;
+8. Read the [post-install instructions](post-install.md) for recommended additional steps;
+
+**Early Starfield Support**: Set launch options to `bash -c 'exec "${@/Starfield.exe/mo2.exe}"' -- %command%`
 
 The installer will automatically configure game-specific workarounds and install the script extender for your game of choice. Java binaries are also made available at `C:\java` for running Proc Patchers.
 
